@@ -325,10 +325,12 @@ platform :android, :override_default => 'es'
 ### Prerequisites:
 
 1. Install docker (https://www.docker.com/get-docker)
-2. Download Dockerfile
+
+2. Clone this repo (https://github.com/perix4/localio.git).
 
 ```bash
-wget https://raw.githubusercontent.com/perix4/localio/master/Dockerfile
+   git clone https://github.com/perix4/localio.git
+   git checkout master
 ```
 
 3. Build image (in the folder where Dockerfile is)
