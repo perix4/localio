@@ -344,7 +344,7 @@ platform :android, :override_default => 'es'
 1. Run localize
 
 ```bash
-     docker run -it --rm -v /${PWD}:/home localio localize
+     docker run -it --rm -v /"${PWD}":/home localio localize
 ```
 
 2. Change permissions of the /out file with:
