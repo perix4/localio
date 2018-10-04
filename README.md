@@ -5,7 +5,7 @@ New features:
 | Version   | Feature   |
 |---        |---        |
 |0.1.8      |`:po` gettext writer implementation for Elixir  |
-|           |`:workshee_index` option for `source :google_drive` |
+|           |`:worksheet_index` option for `source :google_drive` |
 |0.1.7      |`:generate_empty_values` for :ios and :swift    |
 |           |`:regex_replace` for :ios, :swift, :android     |
 |           |Dockerfile and [instructions](https://github.com/perix4/localio#how-to-use-in-docker) for using without Ruby installed |
